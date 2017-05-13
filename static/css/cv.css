@@ -1,0 +1,13 @@
+#contact .name {
+    width: 100%;
+    border-bottom: solid black 1px;
+}
+
+#contact .wrap {
+    display: inline-block;
+    width: 33%;
+}
+
+body {
+    font-family: 'Computer Modern Serif';
+}

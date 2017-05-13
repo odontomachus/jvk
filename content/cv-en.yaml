@@ -1,0 +1,113 @@
+---
+meta:
+  language: en
+personal:
+  name: Jonathan Villemaire-Krajden
+  url: https://j-vk.com/en/
+  email: jonathan@j-vk.com
+  phone: +1-514-571-6377
+  address: 3898 Rue De Bullion
+  address2: Montreal, Canada
+  languages: "Communication languages: Bilingual in English and French"
+sections:
+  profile: >-
+    I am a software developer with a focus on manipulating data and
+    designing APIs. I have led teams in the transition to modern
+    development practices and improved performance security with the collaboration
+    of industry specialists.
+  experience:
+    -
+      company: Digital Foodie
+      employer_description: SaaS grocery e-commerge and logisistics platform provider.
+      start: 2016
+      end: current
+      role: Site Reliability Engineer
+      achievements:
+        - Designed and implemented microservices for order processing and pricing.
+        - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
+        - Provided code reviews and implentation (Ruby, PostgreSQL).
+    -
+      company: CanadaVisa.com
+      employer_description: Immigration law firm
+      start: 2015
+      end: 2016
+      role: Web Developer
+      achievements:
+        - Coordinated IT team and implemented development best practices. (git, Jira)
+        - Implemented libraries and site features. (PHP, Python)
+        - Migrated websites and infrastructure. (CentOS, PHP)
+    -
+      company: Concordia University CLaC lab
+      employer_description: Computational linguistics research lab
+      start: 2012
+      end: 2015
+      role: Research assistant and system administrator
+      achievements:
+        - Managed lab desktops, servers, filers, compute nodes (Ansible, Debian).
+        - Research work in natural language processing (GATE, nltk).
+    -
+      company: PALM+HAVAS
+      employer_description: Global advertising company
+      start: 2012
+      end: 2013
+      role: Web Developer
+      achievements:
+        - Built back-end for Volkswagen Canada customer loyalty site (Kohana).
+        - Provided maintenance on agency's customer's websites.
+    -
+      company: Evolving Web Inc.
+      employer_description: Web development agency.
+      start: 2010
+      end: 2011
+      role: Web Developer
+      achievements:
+        - Developed back-end modules for websites (Drupal).
+        - Designed and deployed high-availability deployments (Linux-HA, GlusterFS).
+        - Cloud infrastructure and monitoring setup (AWS, Rackspace, Chef, Nagios).
+  education:
+    -
+      establishment: McGill University
+      start: 2006
+      end: 2010
+      degree: Bachelor of Science
+      sub: Joint Major of Physics and Computer Science
+    - establishment: Champlain College
+      start: 2004
+      end: 2006
+      degree: DEC in Science
+      sub: International Baccalaureate in Science
+    - establishment: Concordia University
+      start: 2012
+      end: 2013
+      degree: Graduate coursework
+      courses:
+        - Compiler Design
+        - Natural Language Analysis
+        - Statistical Natural Language Processing
+        - Semantic Web
+  technical_skills:
+    Programming languages:
+      Python, Ruby, PHP, javascript, SQL, Bash
+    Programming languages, basic:
+      Java, C, Go, C++
+    Infrastructure tools:
+      Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
+    Web Frameworks:
+      Ramaze, Sinatra, Pyramid, Django, Kohana, Drupal, AngularJS, JQuery
+    OS:
+      Linux (CentOS, Debian, Fedora, Ubuntu, Archlinux)
+    Server Tools:
+      LAMP stack, iptables, NGINX, PostgreSQL, MySQL
+    Version control:
+      git, mercurial, subversion, cvs
+  Projects:
+    projects:
+      - title: Hotbox
+        description: >-
+          Ski oven with temperature controller. I did the hardware
+          design and firmware and bluetooth remote control and
+          monitoring interface.
+        url: https://github.com/odontomachus/hotbox
+    text: >-
+      Find out more about my projects on Github:
+      https://github.com/odontomachus
