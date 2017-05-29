@@ -12,25 +12,26 @@ personal:
 sections:
   profile: >-
     I am a software developer with a focus on software architecture. I
-    have led teams in the transition to modern development practices
-    and improved performance security with the collaboration of
-    industry specialists.
+    design APIs, and write modular and principled software. I have
+    experience with infrastructure and deployment. I have collaborated
+    with security specialists to mitigate risks and harden software
+    and servers.
   experience:
     -
       company: Digital Foodie
-      employer_description: SaaS grocery e-commerce and logisistics platform provider
+      employer_description: SaaS grocery e-commerce and logistics platform provider
       start: 2016
       end: current
       role: Site Reliability Engineer
       achievement: >-
-        I am redesigning the services architecture. This is reducing
+        I am redesigning the services architecture. This reduces
         maintenance and increases performance. I have improved
         database queries to significantly reduce background processing
         time during indexing.
       achievements:
         - Design and implement microservices for order processing and pricing.
         - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
-        - Provide code reviews and implentation (Ruby, PostgreSQL).
+        - Provide code reviews and implementation (Ruby, PostgreSQL).
     -
       company: CanadaVisa.com
       employer_description: Immigration law firm
@@ -38,7 +39,7 @@ sections:
       end: 2016
       role: Web Developer
       achievement: >-
-        I migrated the site to a new redundent architecture leading to
+        I migrated the site to a new redundant architecture leading to
         better uptime and safer deployments. I helped with the
         migration towards development best practices bringing
         accountability to projects.
@@ -58,7 +59,7 @@ sections:
         research.
       achievements:
         - Managed lab desktops, servers, filers, compute nodes (Ansible, Debian).
-        - Did research work in natural language processing (GATE, nltk).
+        - Did research in natural language processing (GATE, NLTK).
     -
       company: PALM+HAVAS
       employer_description: Global advertising company
@@ -71,7 +72,7 @@ sections:
         layouts to improve user engagement.
       achievements:
         - Built back-end for Volkswagen Canada customer loyalty site (Kohana).
-        - Provided maintenance on agency's customer's websites.
+        - Provided maintenance on agency's customers' websites.
     -
       company: Evolving Web Inc.
       employer_description: Web development agency
@@ -108,28 +109,28 @@ sections:
         - Statistical Natural Language Processing
         - Semantic Web
   technical_skills:
-    Programming languages:
-      Python, Ruby, PHP, javascript, SQL, Bash
-    Programming languages, basic:
+    Languages:
+      Python, Ruby, PHP, Javascript, SQL, Bash
+    Intermediate:
       Java, C, Go, C++
-    Infrastructure tools:
+    Infrastructure:
       Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
-    Web Frameworks:
+    Frameworks:
       Ramaze, Sinatra, Pyramid, Django, Kohana, Drupal, AngularJS, JQuery
     OS:
       Linux (CentOS, Debian, Fedora, Ubuntu, Archlinux)
-    Server Tools:
+    Server:
       LAMP stack, iptables, NGINX, PostgreSQL, MySQL
-    Version control:
+    VC:
       git, mercurial, subversion, cvs
   projects:
     projects:
       - title: Hotbox
         description: >-
           Ski oven with temperature controller. I did the hardware
-          design and firmware and bluetooth remote control and
+          design and firmware and Bluetooth remote control and
           monitoring interface.
         url: https://github.com/odontomachus/hotbox
     text: >-
-      Find out more about my projects on Github:
+      Find out more about my projects on GitHub:
         <a href="https://github.com/odontomachus">https://github.com/odontomachus</a>

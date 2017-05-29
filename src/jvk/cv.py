@@ -20,6 +20,7 @@ def render(_input):
     with _input as cvsrc:
         cv = load(cvsrc, Loader=Loader)
         page = {
+            'title': 'CV Jonathan Villemaire-Krajden',
             'head': {
                 'css': [
                     {'href': '/static/vendor/fonts/Serif/cmun-serif.css'},

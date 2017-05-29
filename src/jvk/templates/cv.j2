@@ -33,14 +33,14 @@
               <span class="company">{{ exp.company }}</span>
               〉<span class="employer_description">{{ exp.employer_description }}</span>
             </div>
-            <div class="achievement">
-              {{ exp.achievement }}
-            </div>
             <ul class="achievements">
               {% for ach in exp.achievements %}
                 <li>{{ ach }}</li>
               {% endfor %}
             </ul>
+            <div class="achievement">
+              {{ exp.achievement }}
+            </div>
           </div>
         </div> {# end panel #}
         {{ '<div class="break"></div>' if not loop.last }}
@@ -70,10 +70,15 @@
     </section>
     <section id="technical">
       <h3>{{ _('Technical Skills') }}</h3>
-      <ul>
       {% for skillset in cv.sections.technical_skills %}
-        <li>{{ skillset }}: {{ cv.sections.technical_skills[skillset] }}</li>
-      {% endfor %}
+        <div class="panel">
+          <div class="qualifier">{{ skillset }}
+          </div><div class="description">
+            <span class="skill">{{ cv.sections.technical_skills[skillset] }}</span>
+          </div>
+        </div>
+        {{ '<div class="break"></div>' if not loop.last }}
+        {% endfor %}
       </ul>
     </section>
     <section id="projects">
