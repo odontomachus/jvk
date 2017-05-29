@@ -11,30 +11,40 @@ personal:
   languages: "Communication languages: Bilingual in English and French"
 sections:
   profile: >-
-    I am a software developer with a focus on manipulating data and
-    designing APIs. I have led teams in the transition to modern
-    development practices and improved performance security with the collaboration
-    of industry specialists.
+    I am a software developer with a focus on software architecture. I
+    have led teams in the transition to modern development practices
+    and improved performance security with the collaboration of
+    industry specialists.
   experience:
     -
       company: Digital Foodie
-      employer_description: SaaS grocery e-commerge and logisistics platform provider.
+      employer_description: SaaS grocery e-commerce and logisistics platform provider
       start: 2016
       end: current
       role: Site Reliability Engineer
+      achievement: >-
+        I am redesigning the services architecture. This is reducing
+        maintenance and increases performance. I have improved
+        database queries to significantly reduce background processing
+        time during indexing.
       achievements:
-        - Designed and implemented microservices for order processing and pricing.
+        - Design and implement microservices for order processing and pricing.
         - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
-        - Provided code reviews and implentation (Ruby, PostgreSQL).
+        - Provide code reviews and implentation (Ruby, PostgreSQL).
     -
       company: CanadaVisa.com
       employer_description: Immigration law firm
       start: 2015
       end: 2016
       role: Web Developer
+      achievement: >-
+        I migrated the site to a new redundent architecture leading to
+        better uptime and safer deployments. I helped with the
+        migration towards development best practices bringing
+        accountability to projects.
       achievements:
-        - Coordinated IT team and implemented development best practices. (git, Jira)
         - Implemented libraries and site features. (PHP, Python)
+        - Led IT team to use development best practices. (git, Jira)
         - Migrated websites and infrastructure. (CentOS, PHP)
     -
       company: Concordia University CLaC lab
@@ -42,28 +52,40 @@ sections:
       start: 2012
       end: 2015
       role: Research assistant and system administrator
+      achievement: >-
+        I migrated the lab maintenance to use modern management tools
+        and set up gitlab and helped students setup software for NLP
+        research.
       achievements:
         - Managed lab desktops, servers, filers, compute nodes (Ansible, Debian).
-        - Research work in natural language processing (GATE, nltk).
+        - Did research work in natural language processing (GATE, nltk).
     -
       company: PALM+HAVAS
       employer_description: Global advertising company
       start: 2012
       end: 2013
       role: Web Developer
+      achievement: >-
+        I designed and developed the back end of a customer loyalty
+        site, building a flexible CMS providing highly customizable
+        layouts to improve user engagement.
       achievements:
         - Built back-end for Volkswagen Canada customer loyalty site (Kohana).
         - Provided maintenance on agency's customer's websites.
     -
       company: Evolving Web Inc.
-      employer_description: Web development agency.
+      employer_description: Web development agency
       start: 2010
       end: 2011
       role: Web Developer
+      achievement: >-
+        I built Drupal modules to allow the company to fulfill
+        customer requirements. I set up a scalable redundant cloud
+        architecture for customer deployments.
       achievements:
         - Developed back-end modules for websites (Drupal).
         - Designed and deployed high-availability deployments (Linux-HA, GlusterFS).
-        - Cloud infrastructure and monitoring setup (AWS, Rackspace, Chef, Nagios).
+        - Built cloud infrastructure and monitoring (AWS, Rackspace, Chef, Nagios).
   education:
     -
       establishment: McGill University
@@ -100,7 +122,7 @@ sections:
       LAMP stack, iptables, NGINX, PostgreSQL, MySQL
     Version control:
       git, mercurial, subversion, cvs
-  Projects:
+  projects:
     projects:
       - title: Hotbox
         description: >-
@@ -110,4 +132,4 @@ sections:
         url: https://github.com/odontomachus/hotbox
     text: >-
       Find out more about my projects on Github:
-      https://github.com/odontomachus
+        <a href="https://github.com/odontomachus">https://github.com/odontomachus</a>

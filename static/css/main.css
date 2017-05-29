@@ -5,14 +5,24 @@ html {
     box-sizing: inherit;
 }
 
-.container {
+body {
     margin: 0 auto;
     padding: 0 10px;
-    max-width: 1000px;
+    width: 100%;
 }
 
+@media only screen and (min-device-width: 768px) {
+    body {
+        width: 95%;
+    }
+}
 
-
+@media only screen and (min-device-width: 1224px) {
+    body {
+        max-width: 1400px;
+        width: 80%;
+    }
+}
 
 
 /* === Specific items === */

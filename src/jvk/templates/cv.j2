@@ -1,21 +1,19 @@
 {% extends "main.j2" %}
 {% block content %}
-  <div id="container" class="cv">
+  <div id="cv" class="cv">
     <section id="contact">
       <div class="name"><span>Jonathan Villemaire-Krajden</span></div>
       <div class="wrap">
         <div class="address"><span>{{cv.personal.address}}</span></div>
         <div class="address2"><span>{{cv.personal.address2}}</span></div>
-      </div>
-      <div class="wrap">
+        <div class="nationality"><span>{{ _('Nationality: Canada') }}</span></div>
+      </div><div class="wrap">
         <div class="email"><a href="mailto:{{cv.personal.email}}">{{cv.personal.email}}</a></div>
         <div class="phone"><a href="tel:{{cv.personal.phone}}">{{cv.personal.phone}}</a></div>
-      </div>
-      <div class="wrap">
+      </div><div class="wrap">
         <div class="url"><a href="{{cv.personal.url}}">{{cv.personal.url}}</a></div>
         <div class="languages">{{cv.personal.languages}}</div>
       </div>
-
     </section>
     <section id="profile">
       <h3>{{ _('Profile') }}</h3>
@@ -25,31 +23,49 @@
     <section id="experience">
       <h3>{{ _('Experience') }}</h3>
       {% for exp in cv.sections.experience %}
-        <div class="date">{{ exp.start}} - {{exp.end}}</div>
-        <div class="company">{{ exp.company }}</div>
-        <div class="employer_description">{{ exp.employer_description }}</div>
-        <div class="role">{{ exp.role }}</div>
-        <ul class="achievements">
-        {% for ach in exp.achievements %}
-          <li>{{ ach }}</li>
-        {% endfor %}
-        </ul>
+        <div class="panel">
+          <div class="qualifier"><span>{{ exp.start}} - {{exp.end}}</span>
+          </div><div class="description">
+            <div>
+              <span class="role">{{ exp.role }}</span>
+            </div>
+            <div class="job">
+              <span class="company">{{ exp.company }}</span>
+              〉<span class="employer_description">{{ exp.employer_description }}</span>
+            </div>
+            <div class="achievement">
+              {{ exp.achievement }}
+            </div>
+            <ul class="achievements">
+              {% for ach in exp.achievements %}
+                <li>{{ ach }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div> {# end panel #}
+        {{ '<div class="break"></div>' if not loop.last }}
       {% endfor %}
     </section>
     <section id="education">
       <h3>{{ _('Education') }}</h3>
       {% for ed in cv.sections.education %}
-        <div class="date">{{ ed.start }} - {{ ed.end }}</div>
-        <div class="establishment">{{ ed.establishment }}</div>
-        <div class="degree">{{ ed.degree }}</div>
-        {% if ed.sub %}<div class="sub">{{ ed.sub }}</div>{% endif %}
-        {% if ed.courses %}
-          <ul>
-            {% for course in ed.courses %}
-              <li>{{ course }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
+        <div class="panel">
+          <div class="qualifier">
+            <span class="date">{{ ed.start }} - {{ ed.end }}</span>
+          </div><div class="description">
+            <div><span class="establishment">{{ ed.establishment }}</span></div>
+            <div><span class="degree">{{ ed.degree }}</span></div>
+            {% if ed.sub %}<div class="sub">{{ ed.sub }}</div>{% endif %}
+            {% if ed.courses %}
+              <ul>
+                {% for course in ed.courses %}
+                  <li>{{ course }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+        {{ '<div class="break"></div>' if not loop.last }}
       {% endfor %}
     </section>
     <section id="technical">
@@ -60,5 +76,8 @@
       {% endfor %}
       </ul>
     </section>
+    <section id="projects">
+      <h3>{{ _('Projects') }}</h3>
+      {{ cv.sections.projects.text | safe }}
   </div>
 {% endblock %}
