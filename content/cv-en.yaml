@@ -24,8 +24,8 @@ sections:
       end: current
       role: Site Reliability Engineer
       achievement: >-
-        I am redesigning the services architecture. This reduces
-        maintenance and increases performance. I have improved
+        I am currently redesigning the services architecture. This is reducing
+        maintenance and increasing performance. I have improved
         database queries to significantly reduce background processing
         time during indexing.
       achievements:
@@ -55,10 +55,10 @@ sections:
       role: Research assistant and system administrator
       achievement: >-
         I migrated the lab maintenance to use modern management tools
-        and set up gitlab and helped students setup software for NLP
+        and set up gitlab and helped students to setup software for NLP
         research.
       achievements:
-        - Managed lab desktops, servers, filers, compute nodes (Ansible, Debian).
+        - Managed desktops, servers, filers, compute nodes (Ansible, Debian).
         - Did research in natural language processing (GATE, NLTK).
     -
       company: PALM+HAVAS
@@ -80,9 +80,9 @@ sections:
       end: 2011
       role: Web Developer
       achievement: >-
-        I built Drupal modules to allow the company to fulfill
+        I implemented features to allow the company to fulfill
         customer requirements. I set up a scalable redundant cloud
-        architecture for customer deployments.
+        architecture reducing downtime and optimizing performance.
       achievements:
         - Developed back-end modules for websites (Drupal).
         - Designed and deployed high-availability deployments (Linux-HA, GlusterFS).

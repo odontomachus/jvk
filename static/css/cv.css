@@ -15,7 +15,7 @@ h3 {
 
 ul {
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 12px;
     list-style-type: none;
 }
 
@@ -103,12 +103,12 @@ span.degree {
 
 @page {
     size: A4;
-    margin: 3cm 1.5cm 1.5cm 1.5cm;
+    margin: 3cm 1.7cm 1.5cm 1.7cm;
 }
 
 @page :first {
     size: A4;
-    margin: 1.5cm 1.5cm 1.5cm 1.5cm;
+    margin: 1.5cm 1.7cm 1.8cm 1.7cm;
 }
 
 @media print {
