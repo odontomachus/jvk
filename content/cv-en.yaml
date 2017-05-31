@@ -8,26 +8,26 @@ personal:
   phone: +1-514-571-6377
   address: 3898 Rue De Bullion
   address2: Montreal, Canada
-  languages: "Communication languages: Bilingual in English and French"
+  languages: "Communication languages: Bilingual, English and French"
 sections:
   profile: >-
     I am a software developer with a focus on software architecture. I
     design APIs, and write modular and principled software. I have
-    experience with infrastructure and deployment. I have collaborated
-    with security specialists to mitigate risks and harden software
-    and servers.
+    experience with infrastructure and deployment. I collaborated with
+    security specialists to mitigate risks and harden software and
+    servers.
   experience:
     -
       company: Digital Foodie
       employer_description: SaaS grocery e-commerce and logistics platform provider
       start: 2016
       end: current
-      role: Site Reliability Engineer
+      role: Site reliability engineer
       achievement: >-
-        I am currently redesigning the services architecture. This is reducing
-        maintenance and increasing performance. I have improved
-        database queries to significantly reduce background processing
-        time during indexing.
+        I am currently redesigning the services architecture. This
+        work will be reducing maintenance and increasing
+        performance. I improved database queries to significantly
+        reduce background processing time during indexing.
       achievements:
         - Design and implement microservices for order processing and pricing.
         - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
@@ -37,16 +37,16 @@ sections:
       employer_description: Immigration law firm
       start: 2015
       end: 2016
-      role: Web Developer
+      role: Web developer
       achievement: >-
         I migrated the site to a new redundant architecture leading to
         better uptime and safer deployments. I helped with the
-        migration towards development best practices bringing
+        migration towards the adoption of best practices, bringing
         accountability to projects.
       achievements:
-        - Implemented libraries and site features. (PHP, Python)
-        - Led IT team to use development best practices. (git, Jira)
-        - Migrated websites and infrastructure. (CentOS, PHP)
+        - Implemented libraries and site features (PHP, Python).
+        - Led IT team to use development best practices (git, Jira).
+        - Migrated websites and infrastructure (CentOS, PHP).
     -
       company: Concordia University CLaC lab
       employer_description: Computational linguistics research lab
@@ -54,9 +54,9 @@ sections:
       end: 2015
       role: Research assistant and system administrator
       achievement: >-
-        I migrated the lab maintenance to use modern management tools
-        and set up gitlab and helped students to setup software for NLP
-        research.
+        I migrated the lab maintenance scripts to implement modern
+        management practices. This change reduced the time required for
+        maintenance and allowed more frequent updates.
       achievements:
         - Managed desktops, servers, filers, compute nodes (Ansible, Debian).
         - Did research in natural language processing (GATE, NLTK).
@@ -68,10 +68,10 @@ sections:
       role: Web Developer
       achievement: >-
         I designed and developed the back end of a customer loyalty
-        site, building a flexible CMS providing highly customizable
-        layouts to improve user engagement.
+        site, thus building a flexible CMS that provided highly customizable
+        layouts. This change led to improved user engagement.
       achievements:
-        - Built back-end for Volkswagen Canada customer loyalty site (Kohana).
+        - Built back end for Volkswagen Canada customer loyalty site (Kohana).
         - Provided maintenance on agency's customers' websites.
     -
       company: Evolving Web Inc.
@@ -82,10 +82,10 @@ sections:
       achievement: >-
         I implemented features to allow the company to fulfill
         customer requirements. I set up a scalable redundant cloud
-        architecture reducing downtime and optimizing performance.
+        infrastructure that reduced downtime and increased performance.
       achievements:
-        - Developed back-end modules for websites (Drupal).
-        - Designed and deployed high-availability deployments (Linux-HA, GlusterFS).
+        - Developed back end modules for websites (Drupal).
+        - Designed and deployed high-availability infrastructure (Linux-HA, GlusterFS).
         - Built cloud infrastructure and monitoring (AWS, Rackspace, Chef, Nagios).
   education:
     -
@@ -122,7 +122,7 @@ sections:
     Server:
       LAMP stack, iptables, NGINX, PostgreSQL, MySQL
     VC:
-      git, mercurial, subversion, cvs
+      Git, Mercurial, SVN, CVS
   projects:
     projects:
       - title: Hotbox
