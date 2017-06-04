@@ -31,8 +31,8 @@ sections:
         reduce background processing time during indexing.
       achievements:
         - Design and implement microservices for order processing and pricing.
-        - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
-        - Provide code reviews and implementation (Ruby, PostgreSQL).
+        - Infrastructure design, set-up and maintenance on AWS (<b>Kubernetes</b>, <b>Docker</b> and <b>Jenkins</b>).
+        - Provide code reviews and implementation (<b>Ruby</b>, <b>PostgreSQL</b>).
     -
       company: CanadaVisa.com
       employer_description: Immigration law firm
@@ -45,9 +45,9 @@ sections:
         migration towards the adoption of best practices, bringing
         accountability to projects.
       achievements:
-        - Implemented libraries and site features (PHP, Python).
-        - Led IT team to use development best practices (git, Jira).
-        - Migrated websites and infrastructure (CentOS, PHP).
+        - Implemented libraries and site features (PHP, <b>Python</b>).
+        - Led IT team to use development best practices (<b>git</b>, Jira).
+        - Migrated websites and infrastructure (<b>CentOS</b>, PHP, <b>MySQL</b>).
     -
       company: Concordia University CLaC lab
       employer_description: Computational linguistics research lab
@@ -59,8 +59,8 @@ sections:
         management practices. This change reduced the time required for
         maintenance and allowed more frequent updates.
       achievements:
-        - Managed desktops, servers, filers, compute nodes (Ansible, Debian).
-        - Did research in natural language processing (GATE, NLTK).
+        - Managed desktops, servers, filers, compute nodes (<b>Ansible</b>, <b>Debian</b>).
+        - Did research in natural language processing (GATE, <b>NLTK</b>, <b>machine learning</b>).
     -
       company: PALM+HAVAS
       employer_description: Global advertising company
@@ -87,7 +87,7 @@ sections:
       achievements:
         - Developed back end modules for websites (Drupal).
         - Designed and deployed high-availability infrastructure (Linux-HA, GlusterFS).
-        - Built cloud infrastructure and monitoring (AWS, Rackspace, Chef, Nagios).
+        - Built cloud infrastructure and monitoring (<b>AWS</b>, Rackspace, <b>Chef</b>, <b>Nagios</b>).
   education:
     -
       establishment: McGill University
