@@ -1,0 +1,137 @@
+---
+meta:
+  language: en
+personal:
+  name: Jonathan Villemaire-Krajden
+  url: https://j-vk.com/fr/
+  email: jonathan@j-vk.com
+  phone: +1-514-571-6377
+  address: 3898, rue de Bullion
+  address2: Montréal (Québec)
+  address3: Canada H2W2E1
+  languages: "Bilingue, français et anglais"
+sections:
+  profile: >-
+    Je suis un programmeur qui se concentre sur l'architecture
+    logicielle. Je crée des APIs et j'écris des programmes de façon modulaire et
+    organisée. J'ai de l'expérience avec l'infrastructure en
+    nuage. J'ai collaboré avec des spécialiste de la sécurité afin de
+    fournir des services fiables.
+  experience:
+    -
+      company: Digital Foodie
+      employer_description: SaaS grocery e-commerce and logistics platform provider
+      start: 2016
+      end: current
+      role: Site reliability engineer
+      achievement: >-
+        I am currently redesigning the services architecture. This
+        work will be reducing maintenance and increasing
+        performance. I improved database queries to significantly
+        reduce background processing time during indexing.
+      achievements:
+        - Design and implement microservices for order processing and pricing.
+        - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
+        - Provide code reviews and implementation (Ruby, PostgreSQL).
+    -
+      company: CanadaVisa.com
+      employer_description: Immigration law firm
+      start: 2015
+      end: 2016
+      role: Web developer
+      achievement: >-
+        I migrated the site to a new redundant architecture leading to
+        better uptime and safer deployments. I helped with the
+        migration towards the adoption of best practices, bringing
+        accountability to projects.
+      achievements:
+        - Implemented libraries and site features (PHP, Python).
+        - Led IT team to use development best practices (git, Jira).
+        - Migrated websites and infrastructure (CentOS, PHP).
+    -
+      company: Concordia University CLaC lab
+      employer_description: Computational linguistics research lab
+      start: 2012
+      end: 2015
+      role: Research assistant and system administrator
+      achievement: >-
+        I migrated the lab maintenance scripts to implement modern
+        management practices. This change reduced the time required for
+        maintenance and allowed more frequent updates.
+      achievements:
+        - Managed desktops, servers, filers, compute nodes (Ansible, Debian).
+        - Did research in natural language processing (GATE, NLTK).
+    -
+      company: PALM+HAVAS
+      employer_description: Global advertising company
+      start: 2012
+      end: 2013
+      role: Web Developer
+      achievement: >-
+        I designed and developed the back end of a customer loyalty
+        site, thus building a flexible CMS that provided highly customizable
+        layouts. This change led to improved user engagement.
+      achievements:
+        - Built back end for Volkswagen Canada customer loyalty site (Kohana).
+        - Provided maintenance on agency's customers' websites.
+    -
+      company: Evolving Web Inc.
+      employer_description: Web development agency
+      start: 2010
+      end: 2011
+      role: Web Developer
+      achievement: >-
+        I implemented features to allow the company to fulfill
+        customer requirements. I set up a scalable redundant cloud
+        infrastructure that reduced downtime and increased performance.
+      achievements:
+        - Developed back end modules for websites (Drupal).
+        - Designed and deployed high-availability infrastructure (Linux-HA, GlusterFS).
+        - Built cloud infrastructure and monitoring (AWS, Rackspace, Chef, Nagios).
+  education:
+    -
+      establishment: McGill University
+      start: 2006
+      end: 2010
+      degree: Bachelor of Science
+      sub: Joint Major of Physics and Computer Science
+    - establishment: Champlain College
+      start: 2004
+      end: 2006
+      degree: DEC in Science
+      sub: International Baccalaureate in Science
+    - establishment: Concordia University
+      start: 2012
+      end: 2013
+      degree: Graduate coursework
+      courses:
+        - Compiler Design
+        - Natural Language Analysis
+        - Statistical Natural Language Processing
+        - Semantic Web
+  technical_skills:
+    Languages:
+      Python, Ruby, PHP, Javascript, SQL, Bash
+    Intermediate:
+      Java, C, Go, C++
+    Infrastructure:
+      Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
+    Frameworks:
+      Ramaze, Sinatra, Pyramid, Django, Kohana, Drupal, AngularJS, JQuery
+    OS:
+      Linux (CentOS, Debian, Fedora, Ubuntu, Archlinux)
+    Server:
+      LAMP stack, iptables, NGINX, PostgreSQL, MySQL
+    VC:
+      Git, Mercurial, SVN, CVS
+  projects:
+    projects:
+      - title: Hotbox
+        description: >-
+          Ski oven with temperature controller. I did the hardware
+          design and firmware and Bluetooth remote control and
+          monitoring interface.
+        url: https://github.com/odontomachus/hotbox
+    text: >-
+      Find out more about my projects on GitHub:
+        <a href="https://github.com/odontomachus">https://github.com/odontomachus</a>

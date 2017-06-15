@@ -12,18 +12,18 @@ h3 {
     margin: 1.5em 0 0.8em 0;
 }
 
-ul {
+content ul {
     margin: 0;
     padding: 0 0 0 12px;
     list-style-type: none;
 }
 
-ul li {
+content ul li {
     padding-left: 1em;
     text-indent: -1em;
 }
 
-ul li:before {
+content ul li:before {
     content: '⁃';
     padding-right: 0.5em;
 }
@@ -92,6 +92,12 @@ span.establishment {
 span.degree {
     font-weight: 600;
     color: #444;
+}
+
+@media only screen {
+    #contact {
+        display: None;
+    }
 }
 
 @media only screen and (min-device-width: 768px) {
