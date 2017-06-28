@@ -1,6 +1,6 @@
 ---
 meta:
-  language: en
+  language: fr
 personal:
   name: Jonathan Villemaire-Krajden
   url: https://j-vk.com/fr/
@@ -20,25 +20,26 @@ sections:
   experience:
     -
       company: Digital Foodie
-      employer_description: SaaS grocery e-commerce and logistics platform provider
+      employer_description: Fournisseur de logiciel en tant que service (<i>SaaS</i>) pour le commerce de produits frais.
       start: 2016
-      end: current
-      role: Site reliability engineer
+      end: à ce jour
+      role: Développeur en fiabilité du site (<i>SRE</i>)
       achievement: >-
-        I am currently redesigning the services architecture. This
-        work will be reducing maintenance and increasing
-        performance. I improved database queries to significantly
-        reduce background processing time during indexing.
+        Je suis actuellement en cours de restructurer l'architecture
+        des services. Mon objectif est de réduire la complexité et le
+        coût de l'entretien tout en améliorant la réactivité. J'ai
+        révisé certaines requêtes SQL et diminuer le temps
+        d'indexation d'un facteur de 100 dans certaines situations.
       achievements:
-        - Design and implement microservices for order processing and pricing.
-        - Infrastructure design, set-up and maintenance on AWS (Kubernetes, Docker and Jenkins).
-        - Provide code reviews and implementation (Ruby, PostgreSQL).
+        - Réimplémentation des microservices de commandes et de prix. (REST)
+        - Maintient et développement de l'infrastructure (AWS, Kubernetes, Docker and Jenkins).
+        - Revue de code et programmation (Ruby, PostgreSQL).
     -
       company: CanadaVisa.com
-      employer_description: Immigration law firm
+      employer_description: Firme de droit en immigration
       start: 2015
       end: 2016
-      role: Web developer
+      role: Développeur web
       achievement: >-
         I migrated the site to a new redundant architecture leading to
         better uptime and safer deployments. I helped with the
