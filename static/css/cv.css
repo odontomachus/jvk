@@ -131,4 +131,18 @@ span.degree {
         color: black;
         text-decoration: none;
     }
+
+    ul {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    li {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
 }

@@ -5,12 +5,10 @@ LCODE = $(firstword $(subst _, ,$(LLANG)))
 all: pdf
 
 pdf: html
-	cp cv-$(LCODE).html cv-$(LCODE).html.o
-	sed -i 's,href="/,href=",g' cv-$(LCODE).html.o
-	weasyprint cv-$(LCODE).html.o --base-url . cv-$(LCODE).pdf
-	rm cv-$(LCODE).html.o
+	cd static/ ; cp html/$(LCODE)/resume.html /tmp/cv-$(LCODE).html.o
+	sed -i 's,href="/,href=",g' /tmp/cv-$(LCODE).html.o
+	weasyprint /tmp/cv-$(LCODE).html.o --base-url . cv-$(LCODE).pdf
+	rm /tmp/cv-$(LCODE).html.o
 
-html: src/jvk/cv.py content/cv-en.yaml src/jvk/templates/cv.j2
-	cd src/jvk/ ; python cv.py ../../content/cv-en.yaml ../../cv.html
-	rm -f index.html
-	ln -s cv-$(LCODE).html index.html
+html: src/jvk/site.py content/cv-en.yaml src/jvk/templates/cv.j2 src/jvk/templates/main.j2
+	cd src/jvk/ ; python site.py
