@@ -15,30 +15,42 @@
     <link rel="icon" type="image/png" href="/static/images/favicon.png">
   </head>
   <header>
-    <h1>{{ _("Jonathan's bookshelf") }}</h1>
-    <span class="description">{{ _("Find here an odd assortment of thoughts I put online.") }}</span>
+    <div class="site">
+      <h1>{{ _("Jonathan's bookshelf") }}</h1>
+      <span class="description">{{ _("Find here an odd assortment of thoughts I put online.") }}</span>
+    </div>
+    <div class="lang-switcher">
+      <span>🌐</span>
+      <ul>
+        {% for translation, link in translations.items() if lang != translation %}
+        <li><a href="{{ link }}">{{ translation }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <nav>
+      <ul class="main">
+        <li><a href="/{{ lang }}">j-vk.com</a></li>
+        {% for section in sections[lang] %}
+        <li><a {{section|xmlattr}}
+               {% if section.href == path %} class="active"{% endif %}>
+            {{ section.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul class="lang-switcher">
-      {% for translation, link in translations.items() if lang != translation %}
-      <li><a href="{{ link }}">{{ translation }}</a></li>
-      {% endfor %}
-    </ul>
-    <ul class="main">
-      <li><a href="/{{ lang }}">j-vk.com</a></li>
-      {% for section in sections[lang] %}
-      <li><a {{section|xmlattr}}
-          {% if section.href == path %} class="active"{% endif %}>
-          {{ section.title }}</a></li>
-      {% endfor %}
-    </ul>
-    <ul class="breadcrumbs">
-      <li><a href="/{{ lang }}">{{ _('home') }}</a></li>
-    </ul>
-  </nav>
   <section id="content">
     {% block content %}
     {% endblock %}
   </section>
+  <footer>
+    <div id="contact">
+      <p>{{_('Contact me:') }} <a href="/static/jonathanvk.vcard" alt="{{_('Download contact card')}}"> ↓ </a></p>
+      <div class="h-card">
+        <p><a class="p-name u-url" href="https://j-vk.com/">Jonathan Villemaire-Krajden</a></p>
+        <p>@: <a class="u-email" href="mailto:jonathan@j-vk.com">jonathan@j-vk.com</a></p>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

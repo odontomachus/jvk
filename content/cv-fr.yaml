@@ -6,9 +6,9 @@ personal:
   url: https://j-vk.com/fr/
   email: jonathan@j-vk.com
   phone: +1-514-571-6377
-  address: 3898, rue de Bullion
-  address2: Montréal (Québec)
-  address3: Canada H2W2E1
+  address: Rue des Peupliers 14
+  address2: 1205 Genève
+  address3: ''
   languages: "Bilingue, français et anglais"
 sections:
   profile: >-
@@ -41,20 +41,17 @@ sections:
       end: 2016
       role: Développeur web
       achievement: >-
-        I migrated the site to a new redundant architecture leading to
-        better uptime and safer deployments. I helped with the
-        migration towards the adoption of best practices, bringing
-        accountability to projects.
+        J'ai migrer le site vers une platforme redondante qui a améliorer la fiabilité et facilité les déploiements. J'ai joué un rôle moteur dans l'adoption des meilleurs pratiques.
       achievements:
-        - Implemented libraries and site features (PHP, Python).
-        - Led IT team to use development best practices (git, Jira).
-        - Migrated websites and infrastructure (CentOS, PHP).
+        - Conception de librairies et de fonctionalité du site (PHP, Python).
+        - Apporter les meilleurs pratiques de dévelopement (git, Jira).
+        - Migration des sites et de l'infrastructure (CentOS, PHP).
     -
-      company: Concordia University CLaC lab
-      employer_description: Computational linguistics research lab
+      company: Concordia University CLaC Lab
+      employer_description: Laboratoire de recherche en linguistique informatique
       start: 2012
       end: 2015
-      role: Research assistant and system administrator
+      role: Assistant de recherche et administrateur système.
       achievement: >-
         I migrated the lab maintenance scripts to implement modern
         management practices. This change reduced the time required for

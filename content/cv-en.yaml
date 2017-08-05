@@ -49,7 +49,7 @@ sections:
         - Led IT team to use development best practices (<b>git</b>, Jira).
         - Migrated websites and infrastructure (<b>CentOS</b>, PHP, <b>MySQL</b>).
     -
-      company: Concordia University CLaC lab
+      company: Concordia University CLaC Lab
       employer_description: Computational linguistics research lab
       start: 2012
       end: 2015
