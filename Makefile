@@ -10,5 +10,5 @@ pdf: html
 	weasyprint /tmp/cv-$(LCODE).html.o --base-url . cv-$(LCODE).pdf
 	rm /tmp/cv-$(LCODE).html.o
 
-html: src/jvk/site.py content/cv-en.yaml src/jvk/templates/cv.j2 src/jvk/templates/main.j2
+html: src/jvk/site.py content/** src/jvk/templates/*
 	cd src/jvk/ ; python site.py

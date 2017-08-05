@@ -15,23 +15,25 @@
     <link rel="icon" type="image/png" href="/static/images/favicon.png">
   </head>
   <header>
-    <h1>{{ _("Jonathan's zoo") }}</h1>
+    <h1>{{ _("Jonathan's bookshelf") }}</h1>
     <span class="description">{{ _("Find here an odd assortment of thoughts I put online.") }}</span>
   </header>
   <nav>
     <ul class="lang-switcher">
-      {% for translation, link in translations %}
-      <li><a href={{ link }}>{{ lang }}</a></li>
+      {% for translation, link in translations.items() if lang != translation %}
+      <li><a href="{{ link }}">{{ translation }}</a></li>
       {% endfor %}
     </ul>
     <ul class="main">
       <li><a href="/{{ lang }}">j-vk.com</a></li>
-      <li><a href="/{{ lang }}/{{ _('blog') }}">{{ _('Blog') }}</a></li>
-      <li><a href="/{{ lang }}/{{ _('resume') }}">{{ _('Resume') }}</a></li>
-      <li><a href="/{{ lang }}/{{ _('activities') }}">{{ _('Activities') }}</a></li>
+      {% for section in sections[lang] %}
+      <li><a {{section|xmlattr}}
+          {% if section.href == path %} class="active"{% endif %}>
+          {{ section.title }}</a></li>
+      {% endfor %}
     </ul>
     <ul class="breadcrumbs">
-      <li></li>
+      <li><a href="/{{ lang }}">{{ _('home') }}</a></li>
     </ul>
   </nav>
   <section id="content">
