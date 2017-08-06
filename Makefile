@@ -14,5 +14,14 @@ fr.pdf: html
 
 pdf: en.pdf fr.pdf
 
-html: src/jvk/site.py content/** src/jvk/templates/*
+pot: src/jvk/templates/*.j2
+	cd src; python setup.py extract_messages
+
+po: pot
+	cd src; python setup.py update_catalog
+
+mo: po
+	cd src; python setup.py compile_catalog
+
+html: mo src/jvk/site.py content/** src/jvk/templates/*
 	cd src/jvk/ ; python site.py

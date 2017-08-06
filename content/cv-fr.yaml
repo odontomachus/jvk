@@ -10,6 +10,7 @@ personal:
   address2: 1205 Genève
   address3: ''
   languages: "Bilingue, français et anglais"
+  nationality: 'canadienne'
 sections:
   profile: >-
     Je suis un programmeur qui se concentre sur l'architecture
@@ -27,9 +28,7 @@ sections:
       achievement: >-
         Je suis actuellement en cours de restructurer l'architecture
         des services. Mon objectif est de réduire la complexité et le
-        coût de l'entretien tout en améliorant la réactivité. J'ai
-        révisé certaines requêtes SQL et diminuer le temps
-        d'indexation d'un facteur de 100 dans certaines situations.
+        coût de l'entretien tout en améliorant la réactivité.
       achievements:
         - Réimplémentation des microservices de commandes et de prix. (REST)
         - Maintient et développement de l'infrastructure (AWS, Kubernetes, Docker and Jenkins).
@@ -53,64 +52,59 @@ sections:
       end: 2015
       role: Assistant de recherche et administrateur système.
       achievement: >-
-        I migrated the lab maintenance scripts to implement modern
-        management practices. This change reduced the time required for
-        maintenance and allowed more frequent updates.
+        J'ai migré les scripts de gestion des systèmes vers Ansible, ce qui a simplifié la gestion du parc informatique.
       achievements:
-        - Managed desktops, servers, filers, compute nodes (Ansible, Debian).
-        - Did research in natural language processing (GATE, NLTK).
+        - Gestion du parc informatique (Ansible, Debian).
+        - Recherche en linguistique informatique (GATE, NLTK).
     -
       company: PALM+HAVAS
-      employer_description: Global advertising company
+      employer_description: Agence de publicité
       start: 2012
       end: 2013
-      role: Web Developer
+      role: Dévelopeur web
       achievement: >-
-        I designed and developed the back end of a customer loyalty
-        site, thus building a flexible CMS that provided highly customizable
-        layouts. This change led to improved user engagement.
+        J'ai conçu et mis en oeuvre le back-end d'un site de fidélisation des clients, mettant en place un système de gestion du contenu très souple. Ce changment a accru la participation des utilisateurs.
       achievements:
-        - Built back end for Volkswagen Canada customer loyalty site (Kohana).
-        - Provided maintenance on agency's customers' websites.
+        - Création du back-end d'une platforme de fidélisation pour Volkswagen Canada (Kohana).
+        - Entretient de sites de plusieurs clients de l'agence.
     -
       company: Evolving Web Inc.
-      employer_description: Web development agency
+      employer_description: Agence web
       start: 2010
       end: 2011
-      role: Web Developer
+      role: Dévelopeur web
       achievement: >-
-        I implemented features to allow the company to fulfill
-        customer requirements. I set up a scalable redundant cloud
-        infrastructure that reduced downtime and increased performance.
+        J'ai créé les caractéristiques requises par les clients de la compagnie. J'ai mis en place une platforme dans les nuages avec redondance qui a accru la disponibilité et la performance des sites.
       achievements:
-        - Developed back end modules for websites (Drupal).
-        - Designed and deployed high-availability infrastructure (Linux-HA, GlusterFS).
-        - Built cloud infrastructure and monitoring (AWS, Rackspace, Chef, Nagios).
+        - Création de modules back-end (Drupal).
+        - Conception et implémentation d'infrastructure redondante (Linux-HA, GlusterFS).
+        - Instauration de l'infrastructure en nuage (AWS, Rackspace, Chefr).
+
   education:
     -
-      establishment: McGill University
+      establishment: Université McGill
       start: 2006
       end: 2010
-      degree: Bachelor of Science
-      sub: Joint Major of Physics and Computer Science
-    - establishment: Champlain College
+      degree: Bacchalauréat en science
+      sub: Majeur jointe en physique et en informatique
+    - establishment: CÉGEP Champlain
       start: 2004
       end: 2006
-      degree: DEC in Science
-      sub: International Baccalaureate in Science
-    - establishment: Concordia University
+      degree: DEC en Science
+      sub: Bacchalauréat international en Science
+    - establishment: Université Concordia
       start: 2012
       end: 2013
-      degree: Graduate coursework
+      degree: Cours de maîtrise
       courses:
-        - Compiler Design
-        - Natural Language Analysis
-        - Statistical Natural Language Processing
-        - Semantic Web
+        - Conception de compilateur (<i>Compiler Design</i>)
+        - Analyse des langages naturelles (<i>Natural Language Analysis</i>)
+        - Analyse statistique des langages naturelles (<i>Statistical Natural Language Processing</i>)
+        - Web sémantique (<i>Semantic Web</i>)
   technical_skills:
-    Languages:
+    Langages (avancé):
       Python, Ruby, PHP, Javascript, SQL, Bash
-    Intermediate:
+    Langages (intermédiaires):
       Java, C, Go, C++
     Infrastructure:
       Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
@@ -118,9 +112,9 @@ sections:
       Ramaze, Sinatra, Pyramid, Django, Kohana, Drupal, AngularJS, JQuery
     OS:
       Linux (CentOS, Debian, Fedora, Ubuntu, Archlinux)
-    Server:
+    Serveur:
       LAMP stack, iptables, NGINX, PostgreSQL, MySQL
-    VC:
+    Collaboration:
       Git, Mercurial, SVN, CVS
   projects:
     projects:
@@ -131,5 +125,5 @@ sections:
           monitoring interface.
         url: https://github.com/odontomachus/hotbox
     text: >-
-      Find out more about my projects on GitHub:
+      Vous trouverez certains de mes projets sur GitHub:
         <a href="https://github.com/odontomachus">https://github.com/odontomachus</a>

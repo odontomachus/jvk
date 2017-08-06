@@ -14,6 +14,10 @@ class Renderer:
         loader = FileSystemLoader(searchpath='templates')
         self.defaults = {'translations': {}, 'sections': {'en': [], 'fr': []}}
         self.env = Environment(loader=loader, extensions=['jinja2.ext.i18n'])
+        self.translations = {
+            'en': gettext.translation('jvk', 'locales', languages=['en']),
+            'fr': gettext.translation('jvk', 'locales', languages=['fr']),
+        }
         self.env.install_null_translations()
         self.queue = []
         self.content_dir = content_dir
@@ -39,6 +43,9 @@ class Renderer:
 
     def render_all(self):
         for args, kwargs in self.queue:
+            if 'lang' in kwargs:
+                translations = self.translations[kwargs['lang']]
+                self.env.install_gettext_translations(translations)
             self.render(*args, **kwargs)
 
     def render(self, path, template, **kwargs):
