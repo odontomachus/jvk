@@ -18,8 +18,8 @@ cv_css = [
 ]
 
 add(path='/index', template="simple.j2", content=r('root.html'), title='Jonathan Villemaire-Krajden')
-add(path='/en', template="home.j2", content=r('home.en.html'), lang='en', title='Jonathan Villemaire-Krajden', translations={'fr':'/fr'})
-add(path='/fr', template="home.j2", content=r('home.fr.html'), lang='fr', title='Jonathan Villemaire-Krajden', translations={'en':'/en'})
+add(path='/en', template="home.j2", content=r('home.en.html'), lang='en', title='Jonathan Villemaire-Krajden', translations={'fr':'/fr/'})
+add(path='/fr', template="home.j2", content=r('home.fr.html'), lang='fr', title='Jonathan Villemaire-Krajden', translations={'en':'/en/'})
 
 add(path='/en/resume', template="cv.j2", cv=from_yaml('cv-en.yaml'), lang='en', title='Resume | Jonathan Villemaire-Krajden', translations={'fr':'/fr/cv'}, css=cv_css, section={'title': 'Resume'})
 add(path='/fr/cv', template="cv.j2", cv=from_yaml('cv-fr.yaml'), lang='fr', title='CV | Jonathan Villemaire-Krajden', translations={'en':'/en/resume'}, css=cv_css, section={'title': 'CV'})

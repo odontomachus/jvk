@@ -16,7 +16,7 @@ sections:
     Je suis un programmeur qui se concentre sur l'architecture
     logicielle. Je crée des APIs et j'écris des programmes de façon modulaire et
     organisée. J'ai de l'expérience avec l'infrastructure en
-    nuage. J'ai collaboré avec des spécialiste de la sécurité afin de
+    nuage. J'ai collaboré avec des spécialistes de la sécurité afin de
     fournir des services fiables.
   experience:
     -
@@ -40,10 +40,10 @@ sections:
       end: 2016
       role: Développeur web
       achievement: >-
-        J'ai migrer le site vers une platforme redondante qui a améliorer la fiabilité et facilité les déploiements. J'ai joué un rôle moteur dans l'adoption des meilleurs pratiques.
+        J'ai migré le site vers une platforme redondante qui a amélioré la fiabilité et facilité les déploiements. J'ai joué un rôle moteur dans l'adoption des meilleurs pratiques.
       achievements:
         - Conception de librairies et de fonctionalité du site (PHP, Python).
-        - Apporter les meilleurs pratiques de dévelopement (git, Jira).
+        - Apporter les meilleurs pratiques de développement (git, Jira).
         - Migration des sites et de l'infrastructure (CentOS, PHP).
     -
       company: Concordia University CLaC Lab
@@ -61,9 +61,9 @@ sections:
       employer_description: Agence de publicité
       start: 2012
       end: 2013
-      role: Dévelopeur web
+      role: Développeur web
       achievement: >-
-        J'ai conçu et mis en oeuvre le back-end d'un site de fidélisation des clients, mettant en place un système de gestion du contenu très souple. Ce changment a accru la participation des utilisateurs.
+        J'ai conçu et mis en oeuvre le back-end d'un site de fidélisation des clients, mettant en place un système de gestion du contenu très souple. Ce changement a accru la participation des utilisateurs.
       achievements:
         - Création du back-end d'une platforme de fidélisation pour Volkswagen Canada (Kohana).
         - Entretient de sites de plusieurs clients de l'agence.
@@ -72,7 +72,7 @@ sections:
       employer_description: Agence web
       start: 2010
       end: 2011
-      role: Dévelopeur web
+      role: Développeur web
       achievement: >-
         J'ai créé les caractéristiques requises par les clients de la compagnie. J'ai mis en place une platforme dans les nuages avec redondance qui a accru la disponibilité et la performance des sites.
       achievements:
@@ -98,13 +98,13 @@ sections:
       degree: Cours de maîtrise
       courses:
         - Conception de compilateur (<i>Compiler Design</i>)
-        - Analyse des langages naturelles (<i>Natural Language Analysis</i>)
-        - Analyse statistique des langages naturelles (<i>Statistical Natural Language Processing</i>)
+        - Analyse des langages naturels (<i>Natural Language Analysis</i>)
+        - Analyse statistique des langages naturels (<i>Statistical Natural Language Processing</i>)
         - Web sémantique (<i>Semantic Web</i>)
   technical_skills:
     Langages (avancé):
       Python, Ruby, PHP, Javascript, SQL, Bash
-    Langages (intermédiaires):
+    Langages (intermédiaire):
       Java, C, Go, C++
     Infrastructure:
       Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
