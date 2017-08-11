@@ -14,8 +14,8 @@ personal:
 sections:
   profile: >-
     Je suis un programmeur qui se concentre sur l'architecture
-    logicielle. Je crée des APIs et j'écris des programmes de façon modulaire et
-    organisée. J'ai de l'expérience avec l'infrastructure en
+    logicielle. Je crée des API et j'écris des programmes de façon modulaire et
+    organisée. J'ai une expérience pratique de l'infrastructure en
     nuage. J'ai collaboré avec des spécialistes de la sécurité afin de
     fournir des services fiables.
   experience:
@@ -24,35 +24,35 @@ sections:
       employer_description: Fournisseur de logiciel en tant que service (<i>SaaS</i>) pour le commerce de produits frais.
       start: 2016
       end: à ce jour
-      role: Développeur en fiabilité du site (<i>SRE</i>)
+      role: Développeur-assureur de fiabilité de site (<i>SRE</i>)
       achievement: >-
-        Je suis actuellement en cours de restructurer l'architecture
+        Je procède actuellement à la restructuration de l'architecture
         des services. Mon objectif est de réduire la complexité et le
         coût de l'entretien tout en améliorant la réactivité.
       achievements:
-        - Réimplémentation des microservices de commandes et de prix. (REST)
-        - Maintient et développement de l'infrastructure (AWS, Kubernetes, Docker and Jenkins).
+        - Réimplémentation de microservice de commandes et de prix (REST).
+        - Maintien et développement de l'infrastructure (AWS, Kubernetes, Docker et Jenkins).
         - Revue de code et programmation (Ruby, PostgreSQL).
     -
       company: CanadaVisa.com
-      employer_description: Firme de droit en immigration
+      employer_description: Cabinet d'avocats spécialisés en droit de l'immigration
       start: 2015
       end: 2016
-      role: Développeur web
+      role: Développeur Web
       achievement: >-
-        J'ai migré le site vers une platforme redondante qui a amélioré la fiabilité et facilité les déploiements. J'ai joué un rôle moteur dans l'adoption des meilleurs pratiques.
+        J'ai effectué la migration de sites vers une platforme redondante qui a amélioré la fiabilité et facilité les déploiements. J'ai joué un rôle central dans l'adoption de pratiques exemplaires.
       achievements:
-        - Conception de librairies et de fonctionalité du site (PHP, Python).
-        - Apporter les meilleurs pratiques de développement (git, Jira).
-        - Migration des sites et de l'infrastructure (CentOS, PHP).
+        - Conception de bibliothèques et de fonctionalités du site principal (PHP, Python).
+        - Introduction de pratiques exemplaires de développement (Git, Jira).
+        - Migration de sites et de l'infrastructure (CentOS, PHP).
     -
-      company: Concordia University CLaC Lab
+      company: Laboratoire CLaC, Université Concordia
       employer_description: Laboratoire de recherche en linguistique informatique
       start: 2012
       end: 2015
       role: Assistant de recherche et administrateur système.
       achievement: >-
-        J'ai migré les scripts de gestion des systèmes vers Ansible, ce qui a simplifié la gestion du parc informatique.
+        J'ai effectué la migration de scripts de gestion de systèmes vers Ansible, ce qui a simplifié la gestion du parc informatique.
       achievements:
         - Gestion du parc informatique (Ansible, Debian).
         - Recherche en linguistique informatique (GATE, NLTK).
@@ -61,45 +61,45 @@ sections:
       employer_description: Agence de publicité
       start: 2012
       end: 2013
-      role: Développeur web
+      role: Développeur Web
       achievement: >-
-        J'ai conçu et mis en oeuvre le back-end d'un site de fidélisation des clients, mettant en place un système de gestion du contenu très souple. Ce changement a accru la participation des utilisateurs.
+        J'ai conçu et mis en œuvre le côté serveur d'un site de fidélisation des clients et mis en place un système de gestion du contenu très souple. Ce changement a accru la participation des utilisateurs.
       achievements:
-        - Création du back-end d'une platforme de fidélisation pour Volkswagen Canada (Kohana).
-        - Entretient de sites de plusieurs clients de l'agence.
+        - Création du côté serveur (back-end) d'un site de fidélisation (Kohana).
+        - Entretien de sites de plusieurs clients de l'agence.
     -
       company: Evolving Web Inc.
-      employer_description: Agence web
+      employer_description: Agence Web
       start: 2010
       end: 2011
-      role: Développeur web
+      role: Développeur Web
       achievement: >-
-        J'ai créé les caractéristiques requises par les clients de la compagnie. J'ai mis en place une platforme dans les nuages avec redondance qui a accru la disponibilité et la performance des sites.
+        J'ai créé les fonctions demandées par les clients de l'entreprise. J'ai mis en place une plateforme infonuagique redondante qui a accru la disponibilité et le rendement.
       achievements:
-        - Création de modules back-end (Drupal).
-        - Conception et implémentation d'infrastructure redondante (Linux-HA, GlusterFS).
-        - Instauration de l'infrastructure en nuage (AWS, Rackspace, Chefr).
+        - Création de modules (Drupal).
+        - Conception d'infrastructures redondantes (Linux-HA, GlusterFS).
+        - Instauration de l'infrastructure en nuage (AWS, Rackspace, Chef).
 
   education:
     -
       establishment: Université McGill
       start: 2006
       end: 2010
-      degree: Bacchalauréat en science
-      sub: Majeur jointe en physique et en informatique
-    - establishment: CÉGEP Champlain
+      degree: Baccalauréat en science
+      sub: Double majeure en physique et en informatique
+    - establishment: Cégep Champlain
       start: 2004
       end: 2006
-      degree: DEC en Science
-      sub: Bacchalauréat international en Science
+      degree: Diplôme d'études collégiales en science
+      sub: Baccalauréat international en science
     - establishment: Université Concordia
       start: 2012
       end: 2013
       degree: Cours de maîtrise
       courses:
-        - Conception de compilateur (<i>Compiler Design</i>)
-        - Analyse des langages naturels (<i>Natural Language Analysis</i>)
-        - Analyse statistique des langages naturels (<i>Statistical Natural Language Processing</i>)
+        - Conception de compilateurs (<i>Compiler Design</i>)
+        - Analyse de langages naturels (<i>Natural Language Analysis</i>)
+        - Analyse statistique de langages naturels (<i>Statistical Natural Language Processing</i>)
         - Web sémantique (<i>Semantic Web</i>)
   technical_skills:
     Langages (avancé):
@@ -108,12 +108,12 @@ sections:
       Java, C, Go, C++
     Infrastructure:
       Kubernetes, Docker, Ansible, Chef, Jenkins, Nagios
-    Frameworks:
+    Cadriciels:
       Ramaze, Sinatra, Pyramid, Django, Kohana, Drupal, AngularJS, JQuery
-    OS:
+    SE:
       Linux (CentOS, Debian, Fedora, Ubuntu, Archlinux)
     Serveur:
-      LAMP stack, iptables, NGINX, PostgreSQL, MySQL
+      LAMP, Iptables, NGINX, PostgreSQL, MySQL
     Collaboration:
       Git, Mercurial, SVN, CVS
   projects:
